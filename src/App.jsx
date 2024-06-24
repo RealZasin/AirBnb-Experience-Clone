@@ -23,10 +23,12 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero /> */}
-      {newCard}
+      <Hero />
+      <section className="cards-list">
+        {newCard}
+      </section>
     </>
-  )
+  );
 }
 
 export default App
