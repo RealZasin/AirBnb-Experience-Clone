@@ -8,8 +8,11 @@ body {
 }
 
 nav {
+    margin: auto;
     height: 70px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding: 20px 36px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
@@ -38,6 +41,7 @@ section {
 .hero--photo {
     max-width: 400px;
     align-self: center;
+    padding: 1rem;
 }
 
 .hero--header {
