@@ -6,16 +6,11 @@ import Card from "./components/Card.jsx"
 import data from "./data.jsx"
 
 function App() {
-  const newCard = data.map(cardData => {
+  const newCard = data.map(item => {
     return (
     <Card
-    key={cardData.id}
-    img={cardData.coverImg}
-    rating={cardData.stats.rating}
-    reviewCount={cardData.stats.reviewCount}
-    location={cardData.location}
-    title={cardData.title}
-    price={cardData.price}
+    key={item.id}
+    item={item}
     />
     )
   })
