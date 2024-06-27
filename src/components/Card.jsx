@@ -1,27 +1,27 @@
-import React from "react";
+import styles from "./Card.module.css"
 
 export default function Card(props) {
 
     let badgeText
-    if (props.item.openSpots === 0) {
+    if (props.openSpots === 0) {
     badgeText = "SOLD OUT"
-    } else if (props.item.location === "Online") {
+    } else if (props.location === "Online") {
         badgeText = "ONLINE"
     }
 
   return (
-    <div className="card">
-      {badgeText && <div className="card--badge">{badgeText}</div>}
-      <img src={props.item.coverImg} className="card--image" />
-      <div className="card--stats">
-        <img src="star.png" className="card--star" />
-        <span>{props.item.stats.rating}</span>
-        <span className="gray">({props.item.stats.reviewCount}) • </span>
-        <span className="gray">{props.item.location}</span>
+    <div className={styles.card}>
+      {badgeText && <div className={styles.cardbadge}>{badgeText}</div>}
+      <img src={props.coverImg} className={styles.cardimage} />
+      <div className={styles.cardstats}>
+        <img src="star.png" className={styles.cardstar} />
+        <span>{props.stats.rating}</span>
+        <span className={styles.gray}>({props.stats.reviewCount}) • </span>
+        <span className={styles.gray}>{props.location}</span>
       </div>
-      <p>{props.item.title}</p>
+      <p>{props.title}</p>
       <p>
-        <span className="bold">From ${props.item.price}</span> / person
+        <span className={styles.bold}>From ${props.price}</span> / person
       </p>
     </div>
   );
