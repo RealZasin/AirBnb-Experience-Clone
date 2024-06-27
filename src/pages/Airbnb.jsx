@@ -1,7 +1,7 @@
 import styles from "./Airbnb.module.css"
-import Navbar from "../components/Navbar.jsx";
-import Hero from "../components/Hero.jsx";
-import Card from "../components/Card.jsx";
+import Navbar from "../components/airbnb/Navbar.jsx";
+import Hero from "../components/airbnb/Hero.jsx";
+import Card from "../components/airbnb/Card.jsx";
 import data from "../data.js";
 
 function Airbnb() {

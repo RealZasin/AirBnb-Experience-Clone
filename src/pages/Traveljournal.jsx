@@ -1,7 +1,13 @@
-export default function Hello() {
+import NavBar from "../components/traveljournal/NavBar"
+
+
+export default function TravelJournal() {
+
+
+
     return (
-        <>
-        <h1>hello</h1>
-        </>
+        <div>
+            <NavBar />
+        </div>
     )
 }
