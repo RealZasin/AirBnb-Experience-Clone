@@ -1,3 +1,7 @@
 export default function NavBar(){
-    return <h2>myTRAVELjouranal</h2>
+    return (
+        <div className={navbar}>
+            <h2>myTRAVELjouranal</h2>
+        </div>   
+    )
 }
