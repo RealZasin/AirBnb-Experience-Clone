@@ -1,7 +1,7 @@
-import styles from "./Navbar.module.css";
+import styles from "./AirNavbar.module.css";
 import {Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function AirNavbar() {
     return (
 
     <nav>

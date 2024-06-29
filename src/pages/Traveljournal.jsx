@@ -1,4 +1,4 @@
-import NavBar from "../components/traveljournal/NavBar"
+import JournalNavBar from "../components/traveljournal/JournalNavBar"
 
 
 export default function TravelJournal() {
@@ -7,7 +7,9 @@ export default function TravelJournal() {
 
     return (
         <div>
-            <NavBar />
+            <JournalNavBar />
+            <h1>hey</h1>
+            
         </div>
     )
 }
