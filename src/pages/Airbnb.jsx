@@ -1,5 +1,5 @@
 import styles from "./Airbnb.module.css"
-import Navbar from "../components/airbnb/Navbar.jsx";
+import AirNavbar from "../components/airbnb/AirNavbar.jsx";
 import Hero from "../components/airbnb/Hero.jsx";
 import Card from "../components/airbnb/Card.jsx";
 import data from "../data.js";
@@ -16,7 +16,7 @@ function Airbnb() {
 
   return (
     <>
-      <Navbar />
+      <AirNavbar />
       <Hero />
       <section className={styles.cardslist}>
           {newCard}
