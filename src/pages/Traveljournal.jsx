@@ -1,4 +1,4 @@
-import NavBar from "../components/traveljournal/NavBar"
+import NavBar from "../components/traveljournal/TravelNavBar"
 import HeroTravelJournal from "../components/traveljournal/HeroTravelJournal";
 
 
