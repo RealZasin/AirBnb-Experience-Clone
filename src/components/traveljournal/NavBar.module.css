@@ -1,0 +1,17 @@
+.navbar {
+    font-family: "Edu AU VIC WA NT Hand";
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 206, 255);
+    box-shadow: 1px 1px 10px 0px rgb(124, 124, 124);
+}
+
+.navbar h2 {
+    margin: 1rem;
+}
+
+.globeimg {
+    height: 3rem;
+}
