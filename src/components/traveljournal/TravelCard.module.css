@@ -1,0 +1,11 @@
+.TravelCard{
+    display: flex;
+}
+
+.destinationIMGs{
+    height: 10rem;
+}
+
+.locationpin{
+    height: 1rem;
+}

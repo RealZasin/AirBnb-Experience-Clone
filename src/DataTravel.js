@@ -1,6 +1,8 @@
 export default [
   {
     id: 1,
+    locationpin: "/locationpin.png",
+    destination: "/Japan.jpg",
     country: "Japan",
     location: "Mount Fuji",
     date: "12 Jan, 2021 - 24 Jan, 2021",
@@ -9,6 +11,8 @@ export default [
   },
   {
     id: 2,
+    locationpin: "/locationpin.png",
+    destination: "/Maldivene.jpg",
     country: "Maldives",
     location: "Male",
     date: "24 Jan, 2021 - 10 Feb, 2021",
@@ -17,10 +21,12 @@ export default [
   },
   {
     id: 3,
+    locationpin: "/locationpin.png",
+    destination: "/dubai-palm-jumeirah-island.jpg",
     country: "Dubai",
     location: "Burj Khalifa",
     date: "10 Feb, 2021 - 24 Feb, 2021",
     description:
       "The tallest building in the world, offering stunning panoramic views of the city from its observation decks. It's a must-visit for anyone traveling to Dubai",
-  }
+  },
 ];

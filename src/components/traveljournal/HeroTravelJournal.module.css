@@ -1,6 +1,8 @@
+.WelcomeMSG{
+padding: 1rem;
+}
 
-
-.JapanIMG{
+/* .JapanIMG{
     height: 10rem;
     border-radius: 1rem;
 }
@@ -13,4 +15,4 @@
 .DubaiIMG{
     height: 10rem;
     border-radius: 1rem;
-}
+} */
