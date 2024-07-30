@@ -16,6 +16,8 @@ nav {
     position:fixed;
     top: 1.5rem;
     right: 1.5rem;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.1rem;
 }
 
 
