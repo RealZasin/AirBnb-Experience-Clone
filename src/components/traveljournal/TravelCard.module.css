@@ -1,11 +1,31 @@
 .TravelCard{
     display: flex;
+    gap: 3rem;
+    font-family: "Inconsolata", monospace;
 }
 
 .destinationIMGs{
-    height: 10rem;
+    height: auto;
+    max-width: 50rem;
+    border-radius: 4rem;
 }
 
 .locationpin{
-    height: 1rem;
+    height: 1.5rem;
 }
+
+.LocationDateDesc{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    font-size: 1.5rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.CountryTag{
+    font-size: 1.5rem;
+}
+

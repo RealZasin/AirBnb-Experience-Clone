@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div className={styles.navbar}>
       <img src="globe.png" className={styles.globeimg} />
-      <h2>My Future Travel Goals</h2>
+      <h1>Travel Goals</h1>
     </div>
   );
 }

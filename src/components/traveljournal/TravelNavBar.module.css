@@ -1,7 +1,7 @@
 .navbar {
     margin: auto;
     font-family: "Edu AU VIC WA NT Hand";
-    font-size: larger;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +9,25 @@
     box-shadow: 1px 1px 10px 0px rgb(124, 124, 124);
 }
 
-.navbar h2 {
-    margin: 1rem;
+.globeimg {
+    height: 100%;
+    width: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile-specific styles go here */
+.navbar {
+    margin: auto;
+    font-family: "Edu AU VIC WA NT Hand";
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 206, 255);
+    box-shadow: 1px 1px 10px 0px rgb(124, 124, 124);
 }
 
 .globeimg {
-    height: 3rem;
+    height: 8rem;
+}
 }
