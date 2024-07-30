@@ -14,8 +14,23 @@ body {
     overflow-x: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1024px) {
 
+* {
+    box-sizing: border-box;
+}
 
-    
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cardslist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 }
