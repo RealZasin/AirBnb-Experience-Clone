@@ -14,12 +14,14 @@
     width: 8rem;
 }
 
+
+
 @media only screen and (max-width: 600px) {
   /* Mobile-specific styles go here */
 .navbar {
     margin: auto;
     font-family: "Edu AU VIC WA NT Hand";
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +30,7 @@
 }
 
 .globeimg {
-    height: 8rem;
+    height: 100%;
+    width: 6rem;
 }
 }

@@ -29,3 +29,42 @@
     font-size: 1.5rem;
 }
 
+/*--------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+
+.TravelCard{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Inconsolata", monospace;
+}
+
+.destinationIMGs{
+    height: auto;
+    width: 90vw;
+    border-radius: 2rem;
+}
+
+.locationpin{
+    height: 1.5rem;
+}
+
+.LocationDateDesc{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    max-width: 50rem;
+    font-size: 1.5rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.CountryTag{
+    font-size: 1.5rem;
+}
+
+}
