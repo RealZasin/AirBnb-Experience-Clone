@@ -8,7 +8,7 @@ export default function AirNavbar() {
           <img src="airbnb-logo.png" className={styles.navlogo} />
         </nav>
         <span className={styles.NxtPageFixedLocation}>
-          <Link to="/traveljournal">Next Page</Link>
+          <Link to="/traveljournal">Next</Link>
         </span>
       </>
     );

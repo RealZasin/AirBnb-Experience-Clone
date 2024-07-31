@@ -10,6 +10,9 @@ export default function NavBar() {
       <span className={styles.BackOnePageFixedLocation}>
         <Link to="/">Back</Link>
       </span>
+      <span className={styles.NextPageFixedLocation}>
+        <Link to="/Memegenerator">Next</Link>
+      </span>
     </div>
   );
 }
