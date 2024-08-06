@@ -1,0 +1,12 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 70, 240);
+    color: whitesmoke;
+    height: 4rem;
+}
+
+.memelol {
+    height: 3.2rem;
+}
