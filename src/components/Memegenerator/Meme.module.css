@@ -1,0 +1,15 @@
+.form {
+    display: grid;   
+    grid-template-columns: 20%;
+    grid-template-rows: 20% 20%; 
+    
+}
+
+
+.form-input{
+
+}
+
+.form-button{
+
+}
